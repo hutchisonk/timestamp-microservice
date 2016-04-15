@@ -38,7 +38,7 @@ app.get('/:timestring', function(request, response) {
    };
    console.log("result is "+result);
    console.log("type of result is "+typeof result);
-   response.sendStatus(result);
+   response.send(result);
 });
 
 
