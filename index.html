@@ -1,0 +1,36 @@
+<head>
+  <title>Timestamp Microservice</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <style>
+    body {
+      margin:10px;
+    }
+  </style>
+<head>
+
+<body>
+    <h1>API Basejump: Timestamp microservice</h1>
+    <div class="container">
+      <blockquote>
+        <p>User stories:</p>
+        <ol style="list-style-type:decimal">
+          <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+          <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+          <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ol>
+     </blockquote>
+     <h3>Example Usage:</h3>
+     <code>https://timestamp-ms.herokuapp.com/September%2020,%202016</code>
+     <br>
+     <code>https://timestamp-ms.herokuapp.com/1474344000</code>
+     <h3>Example Output:</h3>
+     <code>{"unix": 1474344000, "natural": September 20, 2016 }</code>
+    </div>
+
+</body>

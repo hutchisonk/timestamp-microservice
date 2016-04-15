@@ -1,0 +1,22 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "A Timestamp microservice",
+  "main": "timestamp.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.12.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node timestamp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "4.4.2"
+  }
+}
